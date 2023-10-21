@@ -15,7 +15,6 @@ Due Date: 21st October 2023 -1400 PKT
 
 ### Tasks
 
-#### Task 1
 1. Install Git or Github Desktop on your PC
 2. Download the website from following url in a directory https://www.free-css.com/free-css-templates/page296/carvilla using linux command.
 3. Make commit of whole data with name "initial commit"
