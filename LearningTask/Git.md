@@ -8,10 +8,10 @@ Here is the Git Task, complete these tasks and share output (file/Picture/code) 
 Due Date: 21st October 2023 -1400 PKT
 
 ## Prerequisite
-- Create a GitHub account.<br>
-- Add one of the following ways to authenticate to push to your repositories: <br>
--- **SSH**: generate and add a public/private SSH key pair to GitHub. [GitHub tutorial](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) <br>
--- **HTTPS**: generate and save a GitHub token to connect with HTTPS: [GitHub tutorial](https://docs.github.com/en/enterprise-server@3.4/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+- Create a GitHub account. (Skip, If you have done already) <br>
+- Add both of the following ways to authenticate to push to your repositories: <br>
+-- **SSH**: generate and add a public/private SSH key pair to GitHub. [GitHub tutorial](https://drive.google.com/file/d/1tL4FvtwaVLio9h1qyQT18EhGyeQ7DNxf/view?usp=share_link) <br>
+-- **HTTPS**: generate and save a GitHub token to connect with HTTPS: (We have already learnt and implemented)
 
 ### Tasks
 
