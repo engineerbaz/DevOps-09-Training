@@ -10,8 +10,8 @@ Due Date: 21st October 2023 -1400 PKT
 ## Prerequisite
 - Create a GitHub account.<br>
 - Add one of the following ways to authenticate to push to your repositories: <br>
--- SSH: generate and add a public/private SSH key pair to GitHub. [GitHub tutorial](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) <br>
--- HTTPS: generate and save a GitHub token to connect with HTTPS: [GitHub tutorial](https://docs.github.com/en/enterprise-server@3.4/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+-- **SSH**: generate and add a public/private SSH key pair to GitHub. [GitHub tutorial](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) <br>
+-- **HTTPS**: generate and save a GitHub token to connect with HTTPS: [GitHub tutorial](https://docs.github.com/en/enterprise-server@3.4/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
 
 ### Tasks
 
@@ -25,5 +25,5 @@ Due Date: 21st October 2023 -1400 PKT
 8. Clone repo https://github.com/engineerbaz/docker-file.git in /temp/testRepo
 9. Make a repo of your own name and make two branches in it as `prod` and `dev`
 10. Fork the repository (https://github.com/engineerbaz/DevOps-09-Training/) by clicking on the Fork button on the upper right corner
-11. Clone the repository of your fork with: git clone https://github.com/YOURLOGIN/github-assignment (replace YOURLOGIN with your GitHub login)
+11. Clone the repository of your fork with: git clone https://github.com/YOURLOGIN/DevOps-09-Training (replace YOURLOGIN with your GitHub login)
 12. Create a file of your Task in Markdown language and upload. 
