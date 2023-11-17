@@ -25,6 +25,14 @@ sudo apt-get update
 Latest 
 `sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin`
 
+
+Check status of Docker
+
+`sudo systemctl status docker`
+
+and make it ready in start
+`sudo systemctl enable docker`
+
 ### 3.  Verify that the Docker Engine installation is successful by running the hello-world image.
 
 `sudo docker run hello-world`
