@@ -60,9 +60,9 @@ docker run -d -p 3000:3000 --name mycontainer myimage               # mycontaine
 
 ## More Dockerfiles 
 
+----LAB 1 ----
 ```sh
----- LAB 1 ---
-
+ 
 FROM httpd:2.4
 COPY ./public-html /usr/local/apache2/htdocs/
 
@@ -85,3 +85,29 @@ docker build -t lab1 .
 docker run -dit -p 8081:80 lab1
 ```
 
+----LAB 3 ----
+```sh
+# Using official ubuntu image as a parent image
+FROM ubuntu:latest
+
+RUN apt-cache search nginx
+RUN apt-get upda
+te && apt-get install curl -y && apt-get install -y nginx
+CMD ["nginx", "-g", "daemon off;"]
+HEALTHCHECK cmd cCOPurl localhost:80
+
+
+
+ docker build -t 3lab .
+docker images 
+docker run -it 3lab
+
+--
+Lab
+FROM vkitpro/ubuntu16.04
+RUN     apt-get  update -y \
+&& apt-get upgrade -y \
+&& apt-get install iputils-ping -y \
+&& apt-get install net-tools -y \
+CMD bash
+```
